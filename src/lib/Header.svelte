@@ -14,12 +14,28 @@
 		<p>{phoneNumber}</p>
 	</div>
 
-	<Nav />
+	<div class="nav-container">
+		<Nav />
+	</div>
 </header>
 
 <style>
 	header {
 		width: 95%;
 		margin: 0 auto;
+		padding: 2rem 0;
+	}
+
+	.logo-container {
+		max-width: 15rem;
+		align-self: center;
+	}
+
+	.truck-logo-container {
+		align-self: center;
+	}
+
+	.nav-container {
+		align-self: center;
 	}
 </style>

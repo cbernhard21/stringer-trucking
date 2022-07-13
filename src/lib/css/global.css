@@ -57,4 +57,9 @@
 html {
 	font-family: 'Roboto', sans-serif;
 	color: var(--white);
+	font-size: 62.5%;
+}
+
+img {
+	width: 100%;
 }
