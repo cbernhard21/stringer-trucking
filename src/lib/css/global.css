@@ -1,0 +1,60 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* VARIABLES */
+:root {
+	--black: #141414;
+	--white: #fdfdfd;
+	--accent: #1a9bf0;
+}
+
+/* UTLITY CLASSES */
+.bg-black {
+	background-color: var(--black);
+}
+
+.bg-white {
+	background-color: var(--white);
+}
+
+.bg-accent {
+	background-color: var(--accent);
+}
+
+.text-black {
+	color: var(--black);
+}
+
+.text-white {
+	color: var(--white);
+}
+
+.text-accent {
+	color: var(--accent);
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-between {
+	justify-content: space-between;
+}
+
+/* RESETS */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	color: var(--white);
+}
